@@ -23,6 +23,16 @@
                     <p><?php bloginfo('description')?></p>
                 </div>
             </div>
-        
+        <div class="row">
+            <div class="col-md-12">
+                <?php
+                    $args = array (
+                        'theme_location' => 'header-menu',
+                        'menu' => 'Menu 1'
+                        );
+                        wp_nav_menu ( $args );
+                ?>        
+            </div>
+        </div>
     </head>
     <body>
