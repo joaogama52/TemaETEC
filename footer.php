@@ -3,7 +3,7 @@
                 <p>Site desenvolvido por BB&JJ</p>
             </div>
         </div>   
-    </div>    
+       
        
         <?php wp_footer();?>
     </body>

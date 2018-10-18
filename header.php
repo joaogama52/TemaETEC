@@ -30,8 +30,8 @@
                         'theme_location' => 'header-menu',
                         'menu' => 'Menu 1'
                         );
-                        wp_nav_menu ( $args );
-                ?>        
+                        wp_nav_menu  ( $args );
+                        ?>
             </div>
         </div>
     </head>
