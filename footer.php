@@ -1,5 +1,5 @@
-        <div class="row">
-            <div class="col-md-12 rodape">
+        <div class="rowdape">
+            <div class="rodape">
                 <p>Site desenvolvido por BB&JJ</p>
             </div>
         </div>   

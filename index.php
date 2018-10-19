@@ -7,7 +7,7 @@
         </div>
     </div>
     
-    <div class="row">
+    <div class="row slider">
         <div class="col-md-12">
             <?php masterslider(2); ?>
             <br>
@@ -22,12 +22,23 @@
                 $cont++;
             if ($cont <= 3){
      ?>
-           <div class="col-md-4">
+     <div class="col-md-4">
+     <div class="card">
+  <img src="<?php the_post_thumbnail (); ?>
+  <div class="container">
+ 
+    <h4 ><b><?php the_title(); ?></b></h4> 
+    <p><?php the_excerpt(); ?></p>
+    <a class="btn btn-primary" href="<?php the_permalink();?>">Leia mais </a>
+  </div>
+  </div>
+</div>
+          <!-- <div class="col-md-4"> <div class="img-responsive img-thumbnail foto"><?php the_post_thumbnail (); ?></div>
                <h3><?php the_excerpt(); ?></h3>
-               <div class="img-responsive img-thumbnail foto"><?php the_post_thumbnail (); ?></div>
+              
                <p><php the_excerpt(); ?></p>
                <a class="btn btn-primary" href="<?php the_permalink();?>">Leia mais </a>
-            </div>   
+            </div>   -->
             
 <?php
 }}}
